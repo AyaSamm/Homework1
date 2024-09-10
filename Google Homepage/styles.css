@@ -1,0 +1,150 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section header ul li{
+list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+section header ul li a:hover{
+text-decoration: underline;
+}
+section header ul li button{
+
+    background: #0b57d0;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+section header ul li button:hover{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.274);
+}
+section .main{
+    width: 580px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .search{
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+}
+section .main .search .searching{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border:1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .search .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items:center;
+}
+section .main .buttons{
+    margin-top: 20px;
+    
+}
+section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover{
+    border: 1.5px solid #ccc;
+}
+section .main .languages{
+    display: flex;
+    margin-top: 30px;
+
+}
+section .main .languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+section .main .languages li a{
+    text-decoration: none;
+    color:#1a0dab;  
+}
+section .main .languages li a:hover{
+    text-decoration: underline;
+}
+footer {
+    width:100%;
+    position: absolute;
+    bottom:0;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #000000c9;
+}
+.container{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    padding-left: 25px;
+}
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.leftL a, .rightL a{
+text-decoration: none;
+color: #000000c9;
+padding: 0 20px 0 0;
+}
+.leftL a:hover, .rightL a:hover{
+    text-decoration: underline;
+}
